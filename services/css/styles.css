@@ -1,0 +1,119 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    height: 200px;
+    background-image: url('../../img/main.webP');
+    background-size: cover;
+    background-position: 20%;
+    text-align: center;
+    color: #EDEFEE;
+    margin: 2% 5% 0 5%;
+    border-radius: 20px;
+}
+
+header h1{
+    font-size: 4rem;
+    margin: 0px;
+    padding-top: 50px
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 10px 500px 10px 500px;
+    background-color: #CBD5D0;
+    border-radius: 20px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    color: black;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #CBD5D0;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article{
+    flex: 1;
+    text-align: center;
+    background-color: #CBD5D0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+article img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#first{
+    margin: 0 20px 0 100px;
+}
+
+#third{
+    margin: 0 100px 0 20px;
+}
+
+article:hover{
+    transform: scale(102%);
+    transition-duration: 0.5s;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 0.47;
+}
+
+footer div img{
+    height: 100px;
+    width: 100px;
+}
